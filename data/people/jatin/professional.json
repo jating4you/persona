@@ -1,0 +1,166 @@
+{
+  "personKey": "jatin",
+  "personLabel": "Jatin",
+  "profileKey": "professional",
+  "profileType": "Professional",
+  "headline": "Staff Engineer \u2022 Java \u2022 Keycloak / IAM",
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Name": "Jatin Goyal",
+        "Title": "Staff Engineer (Identity Platform)",
+        "Experience": "10.6+ years (Java, Spring, Microservices, AWS, System Design)",
+        "Core Focus": "Keycloak-based identity services, SSO, OAuth 2.0 / OIDC, migrations, platform reliability",
+        "Working Style": "Agile, fast-paced, pragmatic engineering",
+        "Email": {
+          "label": "jatingoyal100@gmail.com",
+          "href": "mailto:jatingoyal100@gmail.com"
+        },
+        "Phone": "+91 8375076359"
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Download": {
+          "label": "Download Resume (PDF)",
+          "href": "assets/resume/jatin_resume.pdf",
+          "download": true
+        }
+      }
+    },
+    {
+      "id": "experience",
+      "title": "Professional Experience",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Altimetrik \u2014 Staff Engineer (Apr 2024 \u2013 Present)": [
+          "Client: BHN \u2014 Identity Manager / Identity Platform",
+          "Built Keycloak-based identity services",
+          "Enhanced PII person service, widgets & bag management",
+          "User migration via AWS SQS / Spring Batch",
+          "Integrated Apple/Google/Facebook SSO (OAuth 2.0 / OIDC)"
+        ],
+        "Persistent Systems \u2014 Senior Engineering Lead (Jun 2023 \u2013 Mar 2024)": [
+          "Client: Google (Actifio / backup & disaster recovery)",
+          "Improved performance (~20%), resolved critical issues, delivered enhancements"
+        ],
+        "Yubi (CredAvenue) \u2014 Lead Engineer (Sep 2022 \u2013 Jun 2023)": [
+          "High-traffic services using gRPC microservices",
+          "Temporal workflows for loan/payment status"
+        ],
+        "Publicis Sapient \u2014 Senior Associate Platform (Mar 2021 \u2013 Aug 2022)": [
+          "Goldman Sachs: Banking money movement product",
+          "Clearwater: GL Wizard (Track/Tech Lead)"
+        ],
+        "IHS Markit \u2014 Associate Software Engineer (Oct 2018 \u2013 Mar 2021)": [
+          "TradeSTP platform; integrations (MarkitWire, SFTP, third-party APIs)",
+          "BDD, Sonar, Maven; migrated to Gradle"
+        ],
+        "Newgen Software \u2014 Software Engineer (Aug 2015 \u2013 Oct 2018)": [
+          "BPM/ECM suite (Omni Scan/Docs/Flow/iBPS)",
+          "Lead engineer for Aviva Life Insurance rollout"
+        ]
+      }
+    },
+    {
+      "id": "skills",
+      "title": "Skills",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Languages": [
+          "Java",
+          "Python",
+          "JavaScript",
+          "C/C++",
+          "Ruby"
+        ],
+        "Backend": [
+          "Spring Boot",
+          "Microservices",
+          "Hibernate/JPA",
+          "gRPC",
+          "Reactive (WebFlux)"
+        ],
+        "Cloud": [
+          "AWS (SQS, EC2, RDS, S3, CloudWatch)",
+          "GCP (Compute, Storage APIs)",
+          "Kubernetes"
+        ],
+        "Data": [
+          "PostgreSQL",
+          "MySQL",
+          "Oracle",
+          "MongoDB",
+          "Redis"
+        ],
+        "Dev Tools": [
+          "Git/GitHub/GitLab",
+          "Maven/Gradle",
+          "Jenkins/Bamboo",
+          "Sonar"
+        ],
+        "Architecture": [
+          "System Design",
+          "Design Patterns",
+          "Algorithm Analysis"
+        ]
+      }
+    },
+    {
+      "id": "education_awards",
+      "title": "Education & Awards",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Education": [
+          "Diploma in Programming and Data Science \u2014 IIT Madras (Mar 2021 \u2013 Apr 2025)",
+          "B.Tech (Information Technology) \u2014 GGSIPU, MSIT Delhi (2011 \u2013 2015)"
+        ],
+        "Awards": [
+          "Rise and Shine Award \u2014 Altimetrik (Mar 2025)",
+          "Customer Champion Award \u2014 Altimetrik (Aug 2025)",
+          "PAT awards (NCIP 1 & 2) \u2014 Newgen",
+          "Star award \u2014 IHS Markit"
+        ],
+        "Certifications / Learning": [
+          "NPTEL: Algorithms course (score 95%)",
+          "TensorFlow 2.0 for Machine Learning (learning)"
+        ]
+      }
+    },
+    {
+      "id": "links",
+      "title": "Links",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "LinkedIn": {
+          "label": "Add LinkedIn URL",
+          "href": "https://www.linkedin.com/"
+        },
+        "GitHub": {
+          "label": "Add GitHub URL",
+          "href": "https://github.com/"
+        },
+        "LeetCode": {
+          "label": "Add LeetCode URL",
+          "href": "https://leetcode.com/"
+        },
+        "Stack Overflow": {
+          "label": "Add Stack Overflow URL",
+          "href": "https://stackoverflow.com/"
+        }
+      }
+    }
+  ]
+}

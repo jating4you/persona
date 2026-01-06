@@ -1,0 +1,72 @@
+{
+  "personKey": "nitin",
+  "personLabel": "Nitin",
+  "profileKey": "professional",
+  "profileType": "Professional",
+  "headline": "Software Engineer \u2022 Backend",
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Name": "Nitin (Last Name)",
+        "Role": "Software Engineer",
+        "Summary": "Add a short professional summary here.",
+        "Primary Skills": "Java/Spring, REST APIs, SQL, Cloud",
+        "Location": "Add city/country"
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Download": {
+          "label": "Download Resume (PDF)",
+          "href": "assets/resume/nitin_resume.pdf",
+          "download": true
+        }
+      }
+    },
+    {
+      "id": "experience",
+      "title": "Experience",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Current": "Add current company/role",
+        "Previous": [
+          "Add role 1",
+          "Add role 2"
+        ],
+        "Highlights": [
+          "Project highlight 1",
+          "Project highlight 2"
+        ]
+      }
+    },
+    {
+      "id": "links",
+      "title": "Links",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Email": {
+          "label": "add@email.com",
+          "href": "mailto:add@email.com"
+        },
+        "LinkedIn": {
+          "label": "Add LinkedIn URL",
+          "href": "https://www.linkedin.com/"
+        },
+        "GitHub": {
+          "label": "Add GitHub URL",
+          "href": "https://github.com/"
+        }
+      }
+    }
+  ]
+}

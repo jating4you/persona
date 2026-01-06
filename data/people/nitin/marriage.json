@@ -1,0 +1,68 @@
+{
+  "personKey": "nitin",
+  "personLabel": "Nitin",
+  "profileKey": "marriage",
+  "profileType": "Marriage",
+  "headline": "Marriage Profile",
+  "sections": [
+    {
+      "id": "personal",
+      "title": "Personal Details",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Name": "Nitin (Last Name)",
+        "Age": "Add age",
+        "Height": "Add height",
+        "Religion": "Add religion",
+        "Community": "Add community",
+        "Marital Status": "Add status",
+        "Languages": "Add languages"
+      }
+    },
+    {
+      "id": "education",
+      "title": "Education & Work",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Education": "Add education",
+        "Profession": "Add profession",
+        "Company": "Add company"
+      }
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Father": "Add details",
+        "Mother": "Add details",
+        "Siblings": "Add details"
+      }
+    },
+    {
+      "id": "preferences",
+      "title": "Preferences",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Location Preference": "Add preference",
+        "Lifestyle": "Add preference",
+        "Other": "Add preference"
+      }
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Contact Person": "Add name",
+        "Phone": "Add phone",
+        "Email": "Add email"
+      }
+    }
+  ]
+}

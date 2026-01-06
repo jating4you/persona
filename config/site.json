@@ -1,0 +1,59 @@
+{
+  "site": {
+    "title": "Multi-Profile Static Site",
+    "tagline": "One codebase. Multiple people. Multiple profiles."
+  },
+  "defaults": {
+    "person": "jatin",
+    "profile": "professional"
+  },
+  "profiles": {
+    "professional": {
+      "label": "Professional"
+    },
+    "marriage": {
+      "label": "Marriage"
+    },
+    "business": {
+      "label": "Business"
+    }
+  },
+  "people": {
+    "jatin": {
+      "label": "Jatin",
+      "enabled": true,
+      "profiles": {
+        "professional": {
+          "enabled": true,
+          "dataFile": "data/people/jatin/professional.json"
+        },
+        "marriage": {
+          "enabled": true,
+          "dataFile": "data/people/jatin/marriage.json"
+        },
+        "business": {
+          "enabled": true,
+          "dataFile": "data/people/jatin/business.json"
+        }
+      }
+    },
+    "nitin": {
+      "label": "Nitin",
+      "enabled": true,
+      "profiles": {
+        "professional": {
+          "enabled": true,
+          "dataFile": "data/people/nitin/professional.json"
+        },
+        "marriage": {
+          "enabled": true,
+          "dataFile": "data/people/nitin/marriage.json"
+        },
+        "business": {
+          "enabled": true,
+          "dataFile": "data/people/nitin/business.json"
+        }
+      }
+    }
+  }
+}

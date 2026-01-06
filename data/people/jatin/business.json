@@ -1,0 +1,59 @@
+{
+  "personKey": "jatin",
+  "personLabel": "Jatin",
+  "profileKey": "business",
+  "profileType": "Business",
+  "headline": "IAM & Security Engineering Services",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Business Overview",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Brand Name": "Your Business Name",
+        "What We Do": "Identity, SSO, secure login & risk integrations",
+        "Ideal Customers": "Startups, enterprises, teams adopting Keycloak"
+      }
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "SSO / OIDC / OAuth": "Design + implementation + troubleshooting",
+        "Keycloak Customization": "SPIs, themes, login flows, migration planning",
+        "Security Hardening": "OWASP guidance, brute-force protections, header hardening",
+        "Kubernetes / AWS": "EKS/ECS deployments, Terraform/Helm"
+      }
+    },
+    {
+      "id": "offerings",
+      "title": "Offerings",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Starter Assessment": "1\u20132 week review & recommendations",
+        "Implementation Sprint": "Feature delivery with staged rollout",
+        "BAU Support": "On-call style support & maintenance"
+      }
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Email": {
+          "label": "your-email@example.com",
+          "href": "mailto:your-email@example.com"
+        },
+        "Calendly": {
+          "label": "Add scheduling link",
+          "href": "https://calendly.com/"
+        }
+      }
+    }
+  ]
+}

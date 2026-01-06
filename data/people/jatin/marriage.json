@@ -1,0 +1,74 @@
+{
+  "personKey": "jatin",
+  "personLabel": "Jatin",
+  "profileKey": "marriage",
+  "profileType": "Marriage",
+  "headline": "Marriage Profile",
+  "sections": [
+    {
+      "id": "personal",
+      "title": "Personal Details",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Name": "Jatin Goyal",
+        "Age": "Add age",
+        "Height": "Add height",
+        "Religion": "Add religion",
+        "Community": "Add community",
+        "Marital Status": "Add status",
+        "Language": "Add languages"
+      }
+    },
+    {
+      "id": "education",
+      "title": "Education & Career",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Education": "Add education details",
+        "Profession": "Software Engineer",
+        "Work Location": "Add city",
+        "Income": "Optional"
+      }
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Father": "Add details",
+        "Mother": "Add details",
+        "Siblings": "Add details",
+        "Family Location": "Add location"
+      }
+    },
+    {
+      "id": "preferences",
+      "title": "Preferences",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Partner Expectations": "Add your expectations",
+        "Lifestyle": "Add lifestyle preferences",
+        "Diet": "Add diet preferences",
+        "Hobbies": [
+          "Add hobby 1",
+          "Add hobby 2"
+        ]
+      }
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Contact Person": "Add name",
+        "Phone": "Add phone",
+        "Email": "Add email"
+      }
+    }
+  ]
+}

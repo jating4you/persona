@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multi-Profile Static Site</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="brand-title" id="site-title">Multi-Profile Static Site</div>
+        <div class="brand-tagline" id="site-tagline">One codebase. Multiple people. Multiple profiles.</div>
+      </div>
+
+      <div class="controls">
+        <div class="control">
+          <span>Person</span>
+          <div id="person-display" class="pill" aria-label="Current person"></div>
+        </div>
+
+        <label class="control">
+          <span>Profile</span>
+          <select id="profile-select" aria-label="Profile selector"></select>
+        </label>
+
+        <button id="theme-toggle" class="button" type="button" title="Toggle light/dark mode">Theme</button>
+
+        <a id="share-link" class="button" href="#" title="Copy the current profile link">Copy Link</a>
+      </div>
+    </div>
+
+    <div class="container tabs-row">
+      <nav class="tabs" id="profile-tabs" aria-label="Profile navigation"></nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-title" id="hero-title">Loading…</div>
+      <div class="hero-subtitle" id="hero-subtitle"></div>
+    </section>
+
+    <section id="sections" class="sections"></section>
+
+    <section class="quick-links">
+      <h2>Switch profile</h2>
+      <div id="quick-links-grid" class="quick-links-grid"></div>
+      <p class="hint">Tip: You can share any page using the URL parameters <code>?person=…&profile=…</code>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>Static site • Works on GitHub Pages • No backend</span>
+      <span class="muted">Edit data in <code>data/people/*</code> and toggles in <code>config/site.json</code></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

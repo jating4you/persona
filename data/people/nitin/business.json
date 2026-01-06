@@ -1,0 +1,58 @@
+{
+  "personKey": "nitin",
+  "personLabel": "Nitin",
+  "profileKey": "business",
+  "profileType": "Business",
+  "headline": "Consulting & Services",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Business Overview",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Business Name": "Nitin Consulting",
+        "What We Do": "Add short description of services/products",
+        "Ideal Customers": "Startups, SMBs, enterprises (edit)"
+      }
+    },
+    {
+      "id": "services",
+      "title": "Services",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Service 1": "Describe service 1",
+        "Service 2": "Describe service 2",
+        "Service 3": "Describe service 3"
+      }
+    },
+    {
+      "id": "products",
+      "title": "Products",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Product 1": "Describe product 1",
+        "Product 2": "Describe product 2"
+      }
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "visible": true,
+      "kind": "keyValue",
+      "content": {
+        "Email": {
+          "label": "contact@email.com",
+          "href": "mailto:contact@email.com"
+        },
+        "Phone": "Add phone",
+        "Website": {
+          "label": "https://example.com",
+          "href": "https://example.com"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/tanya.svg",
+    "title": "Tanya · Job",
+    "subtitle": "Software Engineer · Resume profile",
+    "meta": "Resume-style profile",
+    "actions": [
+      {
+        "label": "Download Resume",
+        "href": "../../assets/files/tanya/job/resume.pdf",
+        "variant": "btn-primary",
+        "icon": "⬇️",
+        "download": true
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "About Me",
+      "body": "This is a template resume profile.\n\nUpdate sections in the JSON to reflect real experience, projects and achievements."
+    },
+    {
+      "type": "timeline",
+      "title": "Experience Timeline",
+      "items": [
+        {
+          "title": "Role — Company",
+          "period": "2023 – Present",
+          "subtitle": "Team / Product",
+          "bullets": [
+            "Key achievement 1",
+            "Key achievement 2",
+            "Tech stack: …"
+          ]
+        },
+        {
+          "title": "Role — Company",
+          "period": "2021 – 2023",
+          "subtitle": "Team / Product",
+          "bullets": [
+            "Key achievement 1",
+            "Key achievement 2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "badges",
+      "title": "Skills",
+      "groups": [
+        {
+          "title": "Core",
+          "items": [
+            "Java",
+            "Spring Boot",
+            "SQL",
+            "REST APIs"
+          ]
+        },
+        {
+          "title": "Cloud",
+          "items": [
+            "AWS",
+            "Docker",
+            "Kubernetes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Awards & Recognition",
+      "items": [
+        {
+          "title": "Award / Recognition",
+          "period": "2024",
+          "subtitle": "",
+          "bullets": [
+            "Describe the recognition."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Education",
+      "items": [
+        {
+          "title": "Degree — University",
+          "period": "2018 – 2022",
+          "subtitle": "",
+          "bullets": [
+            "Major / highlights"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Hobbies & Interests",
+      "body": "Add hobbies: reading, sports, travel, volunteering…"
+    },
+    {
+      "type": "cards",
+      "title": "Links",
+      "items": [
+        {
+          "title": "LinkedIn",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        },
+        {
+          "title": "GitHub",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        },
+        {
+          "title": "LeetCode",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        }
+      ]
+    }
+  ]
+}

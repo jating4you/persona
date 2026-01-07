@@ -1,0 +1,59 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/jatin.svg",
+    "title": "Jatin · Documents",
+    "subtitle": "Download-only vault (placeholders).",
+    "meta": "For real IDs, use private hosting.",
+    "actions": []
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "Important",
+      "body": "This section is meant for placeholders/templates.\n\nAvoid uploading real government IDs to public hosting."
+    },
+    {
+      "type": "downloads",
+      "title": "Identity Documents",
+      "items": [
+        {
+          "label": "Aadhaar Card",
+          "file": "../../assets/files/jatin/docs/aadhaar.pdf",
+          "note": "Government ID (placeholder)"
+        },
+        {
+          "label": "PAN Card",
+          "file": "../../assets/files/jatin/docs/pan.pdf",
+          "note": "Tax ID (placeholder)"
+        },
+        {
+          "label": "Passport",
+          "file": "../../assets/files/jatin/docs/passport.pdf",
+          "note": "Travel document (placeholder)"
+        },
+        {
+          "label": "Voter ID",
+          "file": "../../assets/files/jatin/docs/voter_id.pdf",
+          "note": "Voter ID (placeholder)"
+        },
+        {
+          "label": "Other ID",
+          "file": "../../assets/files/jatin/docs/other_id.pdf",
+          "note": "Other identity document (placeholder)"
+        }
+      ]
+    },
+    {
+      "type": "downloads",
+      "title": "Other",
+      "items": [
+        {
+          "label": "Resume",
+          "file": "../../assets/files/jatin/job/resume.pdf",
+          "note": "Resume PDF"
+        }
+      ]
+    }
+  ]
+}

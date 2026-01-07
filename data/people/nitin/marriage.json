@@ -1,68 +1,192 @@
 {
-  "personKey": "nitin",
-  "personLabel": "Nitin",
-  "profileKey": "marriage",
-  "profileType": "Marriage",
-  "headline": "Marriage Profile",
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/nitin.svg",
+    "title": "Nitin · Marriage Biodata",
+    "subtitle": "Biodata template (personal, family, lifestyle, preferences)",
+    "meta": "Unlisted on landing unless you add it",
+    "actions": [
+      {
+        "label": "Download Biodata PDF (optional)",
+        "href": "../../assets/files/nitin/marriage/biodata.pdf",
+        "variant": "btn-primary",
+        "icon": "⬇️",
+        "download": true
+      }
+    ]
+  },
   "sections": [
     {
-      "id": "personal",
+      "type": "kv",
       "title": "Personal Details",
-      "visible": true,
-      "kind": "keyValue",
-      "content": {
-        "Name": "Nitin (Last Name)",
-        "Age": "Add age",
-        "Height": "Add height",
-        "Religion": "Add religion",
-        "Community": "Add community",
-        "Marital Status": "Add status",
-        "Languages": "Add languages"
-      }
+      "rows": [
+        {
+          "label": "Full Name",
+          "value": "Nitin (update)"
+        },
+        {
+          "label": "Age / DOB",
+          "value": "Update"
+        },
+        {
+          "label": "Height",
+          "value": "Update"
+        },
+        {
+          "label": "Religion / Community",
+          "value": "Update"
+        },
+        {
+          "label": "Mother Tongue",
+          "value": "Update"
+        },
+        {
+          "label": "Current City",
+          "value": "Update"
+        },
+        {
+          "label": "Education",
+          "value": "Update"
+        },
+        {
+          "label": "Profession",
+          "value": "Update"
+        }
+      ]
     },
     {
-      "id": "education",
-      "title": "Education & Work",
-      "visible": true,
-      "kind": "keyValue",
-      "content": {
-        "Education": "Add education",
-        "Profession": "Add profession",
-        "Company": "Add company"
-      }
+      "type": "text",
+      "title": "About Me",
+      "body": "Write 5–8 lines about personality, values, and what you’re looking for.\n\nKeep it respectful, clear, and honest."
     },
     {
-      "id": "family",
+      "type": "kv",
       "title": "Family",
-      "visible": true,
-      "kind": "keyValue",
-      "content": {
-        "Father": "Add details",
-        "Mother": "Add details",
-        "Siblings": "Add details"
-      }
+      "rows": [
+        {
+          "label": "Father",
+          "value": "Update"
+        },
+        {
+          "label": "Mother",
+          "value": "Update"
+        },
+        {
+          "label": "Siblings",
+          "value": "Update"
+        },
+        {
+          "label": "Family Values",
+          "value": "Update"
+        },
+        {
+          "label": "Native Place",
+          "value": "Update"
+        }
+      ]
     },
     {
-      "id": "preferences",
-      "title": "Preferences",
-      "visible": true,
-      "kind": "keyValue",
-      "content": {
-        "Location Preference": "Add preference",
-        "Lifestyle": "Add preference",
-        "Other": "Add preference"
-      }
+      "type": "timeline",
+      "title": "Education Timeline",
+      "items": [
+        {
+          "title": "Degree — University",
+          "period": "Year – Year",
+          "subtitle": "",
+          "bullets": [
+            "Highlights / GPA / achievements"
+          ]
+        }
+      ]
     },
     {
-      "id": "contact",
+      "type": "timeline",
+      "title": "Career Timeline",
+      "items": [
+        {
+          "title": "Role — Company",
+          "period": "Year – Year",
+          "subtitle": "",
+          "bullets": [
+            "Responsibilities, growth, achievements"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "kv",
+      "title": "Lifestyle",
+      "rows": [
+        {
+          "label": "Diet",
+          "value": "Update"
+        },
+        {
+          "label": "Smoking",
+          "value": "Update"
+        },
+        {
+          "label": "Drinking",
+          "value": "Update"
+        },
+        {
+          "label": "Hobbies",
+          "value": "Update"
+        },
+        {
+          "label": "Fitness",
+          "value": "Update"
+        }
+      ]
+    },
+    {
+      "type": "kv",
+      "title": "Partner Preferences",
+      "rows": [
+        {
+          "label": "Preferred Location",
+          "value": "Update"
+        },
+        {
+          "label": "Preferred Education",
+          "value": "Update"
+        },
+        {
+          "label": "Preferred Profession",
+          "value": "Update"
+        },
+        {
+          "label": "Values / Expectations",
+          "value": "Update"
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Photos (placeholders)",
+      "images": [
+        "../../assets/img/gallery/nitin-1.svg",
+        "../../assets/img/gallery/nitin-2.svg",
+        "../../assets/img/gallery/nitin-3.svg"
+      ]
+    },
+    {
+      "type": "kv",
       "title": "Contact",
-      "visible": true,
-      "kind": "keyValue",
-      "content": {
-        "Contact Person": "Add name",
-        "Phone": "Add phone",
-        "Email": "Add email"
-      }
+      "rows": [
+        {
+          "label": "Contact Person",
+          "value": "Update"
+        },
+        {
+          "label": "Phone",
+          "value": "Update"
+        },
+        {
+          "label": "Email",
+          "value": "Update"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,152 @@
+{
+  "title": "Persona Fairs",
+  "subtitle": "Grouped entry points. Click a person under a fair to open that specific profile.",
+  "note": "Profiles are not cross-linked for privacy.",
+  "business": {
+    "title": "Business (Global)",
+    "subtitle": "Services, offerings and contact — not tied to any individual.",
+    "href": "business/"
+  },
+  "groups": [
+    {
+      "key": "job",
+      "title": "Job Fair",
+      "subtitle": "Resume-style profiles (about, experience timeline, skills, awards, education).",
+      "items": [
+        {
+          "key": "jatin",
+          "name": "Jatin",
+          "avatar": "assets/img/avatars/jatin.svg",
+          "href": "jatin/job/",
+          "note": "Backend / IAM / Java"
+        },
+        {
+          "key": "nitin",
+          "name": "Nitin",
+          "avatar": "assets/img/avatars/nitin.svg",
+          "href": "nitin/job/",
+          "note": "Engineering profile"
+        },
+        {
+          "key": "tanya",
+          "name": "Tanya",
+          "avatar": "assets/img/avatars/tanya.svg",
+          "href": "tanya/job/",
+          "note": "Engineering profile"
+        },
+        {
+          "key": "komal",
+          "name": "Komal",
+          "avatar": "assets/img/avatars/komal.svg",
+          "href": "komal/job/",
+          "note": "Engineering profile"
+        }
+      ]
+    },
+    {
+      "key": "marriage",
+      "title": "Marriage Fair",
+      "subtitle": "Biodata-style profile (personal, family, lifestyle, partner preferences).",
+      "items": [
+        {
+          "key": "nitin",
+          "name": "Nitin",
+          "avatar": "assets/img/avatars/nitin.svg",
+          "href": "nitin/marriage/",
+          "note": "Biodata (private)"
+        }
+      ]
+    },
+    {
+      "key": "docs",
+      "title": "Document Vault",
+      "subtitle": "Download placeholders for Aadhaar, PAN, Passport, Voter ID, Other ID.",
+      "items": [
+        {
+          "key": "jatin",
+          "name": "Jatin",
+          "avatar": "assets/img/avatars/jatin.svg",
+          "href": "jatin/docs/",
+          "note": "IDs + resume"
+        },
+        {
+          "key": "nitin",
+          "name": "Nitin",
+          "avatar": "assets/img/avatars/nitin.svg",
+          "href": "nitin/docs/",
+          "note": "IDs + resume"
+        },
+        {
+          "key": "tanya",
+          "name": "Tanya",
+          "avatar": "assets/img/avatars/tanya.svg",
+          "href": "tanya/docs/",
+          "note": "IDs"
+        },
+        {
+          "key": "komal",
+          "name": "Komal",
+          "avatar": "assets/img/avatars/komal.svg",
+          "href": "komal/docs/",
+          "note": "IDs"
+        },
+        {
+          "key": "sagar",
+          "name": "Sagar",
+          "avatar": "assets/img/avatars/sagar.svg",
+          "href": "sagar/docs/",
+          "note": "IDs"
+        },
+        {
+          "key": "deepak",
+          "name": "Deepak",
+          "avatar": "assets/img/avatars/deepak.svg",
+          "href": "deepak/docs/",
+          "note": "IDs"
+        }
+      ]
+    },
+    {
+      "key": "social",
+      "title": "Social Work",
+      "subtitle": "Initiatives, impact, volunteering and community work.",
+      "items": [
+        {
+          "key": "jatin",
+          "name": "Jatin",
+          "avatar": "assets/img/avatars/jatin.svg",
+          "href": "jatin/socialwork/",
+          "note": "Volunteering"
+        },
+        {
+          "key": "nitin",
+          "name": "Nitin",
+          "avatar": "assets/img/avatars/nitin.svg",
+          "href": "nitin/socialwork/",
+          "note": "Volunteering"
+        },
+        {
+          "key": "tanya",
+          "name": "Tanya",
+          "avatar": "assets/img/avatars/tanya.svg",
+          "href": "tanya/socialwork/",
+          "note": "Volunteering"
+        },
+        {
+          "key": "komal",
+          "name": "Komal",
+          "avatar": "assets/img/avatars/komal.svg",
+          "href": "komal/socialwork/",
+          "note": "Volunteering"
+        },
+        {
+          "key": "deepak",
+          "name": "Deepak",
+          "avatar": "assets/img/avatars/deepak.svg",
+          "href": "deepak/socialwork/",
+          "note": "Community / org"
+        }
+      ]
+    }
+  ]
+}

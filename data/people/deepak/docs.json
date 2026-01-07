@@ -1,0 +1,53 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/deepak.svg",
+    "title": "Deepak · Documents",
+    "subtitle": "Download-only vault (placeholders).",
+    "meta": "For real IDs, use private hosting.",
+    "actions": []
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "Important",
+      "body": "This section is meant for placeholders/templates.\n\nAvoid uploading real government IDs to public hosting."
+    },
+    {
+      "type": "downloads",
+      "title": "Identity Documents",
+      "items": [
+        {
+          "label": "Aadhaar Card",
+          "file": "../../assets/files/deepak/docs/aadhaar.pdf",
+          "note": "Government ID (placeholder)"
+        },
+        {
+          "label": "PAN Card",
+          "file": "../../assets/files/deepak/docs/pan.pdf",
+          "note": "Tax ID (placeholder)"
+        },
+        {
+          "label": "Passport",
+          "file": "../../assets/files/deepak/docs/passport.pdf",
+          "note": "Travel document (placeholder)"
+        },
+        {
+          "label": "Voter ID",
+          "file": "../../assets/files/deepak/docs/voter_id.pdf",
+          "note": "Voter ID (placeholder)"
+        },
+        {
+          "label": "Other ID",
+          "file": "../../assets/files/deepak/docs/other_id.pdf",
+          "note": "Other identity document (placeholder)"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Other",
+      "body": "No additional files configured."
+    }
+  ]
+}

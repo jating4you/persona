@@ -1,0 +1,75 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/nitin.svg",
+    "title": "Nitin · Social Work",
+    "subtitle": "Community initiatives and volunteering",
+    "meta": "Impact, initiatives, and participation",
+    "actions": [
+      {
+        "label": "Contact",
+        "href": "mailto:hello@example.com",
+        "variant": "btn-outline-primary",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "Mission",
+      "body": "Support community well-being through consistent, small, high-impact actions.\n\nFocus areas: health, education, environment, and social welfare."
+    },
+    {
+      "type": "timeline",
+      "title": "Initiatives",
+      "items": [
+        {
+          "title": "Volunteer Drives",
+          "period": "Ongoing",
+          "subtitle": "Community",
+          "bullets": [
+            "Regular volunteering in community events.",
+            "Participate in donation drives and local support programs.",
+            "Help organize awareness sessions and small workshops."
+          ]
+        },
+        {
+          "title": "Events & Awareness",
+          "period": "Ongoing",
+          "subtitle": "Local groups",
+          "bullets": [
+            "Blood donation camps",
+            "Cleanliness drives",
+            "Student mentoring sessions"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Highlights",
+      "items": [
+        {
+          "title": "Impact (sample)",
+          "subtitle": "Add metrics",
+          "body": "Events: 10+\n\nVolunteers: 50+\n\nHours: 200+"
+        },
+        {
+          "title": "Partnerships",
+          "subtitle": "Organizations / groups",
+          "body": "List NGOs, community groups, or organizations you work with."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "title": "Photos (placeholders)",
+      "images": [
+        "../../assets/img/gallery/nitin-1.svg",
+        "../../assets/img/gallery/nitin-2.svg",
+        "../../assets/img/gallery/nitin-3.svg"
+      ]
+    }
+  ]
+}

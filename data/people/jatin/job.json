@@ -1,0 +1,216 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "avatar": "../../assets/img/avatars/jatin.svg",
+    "title": "Jatin · Job",
+    "subtitle": "Staff Engineer · Backend / IAM · Java · AWS",
+    "meta": "Resume-style profile",
+    "actions": [
+      {
+        "label": "Download Resume",
+        "href": "../../assets/files/jatin/job/resume.pdf",
+        "variant": "btn-primary",
+        "icon": "⬇️",
+        "download": true
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "About Me",
+      "body": "Keen, innovative and pragmatic programmer with 10+ years of experience in Java, system design, and cloud-native services.\n\nI build secure identity platforms, reliable backend systems, and scalable integrations with a focus on low-toil operations and staged rollouts."
+    },
+    {
+      "type": "timeline",
+      "title": "Experience Timeline",
+      "items": [
+        {
+          "title": "Staff Engineer — Altimetrik (Client: BHN)",
+          "period": "Apr 2024 – Present",
+          "subtitle": "Identity Manager / Identity Platform",
+          "bullets": [
+            "Built Keycloak-based identity services and enhanced PII person service.",
+            "Implemented widget & bag management and user migration (SQS / batch).",
+            "Integrated Apple/Google/Facebook SSO (OAuth 2.0 / OIDC).",
+            "Stack: Java 21, Keycloak 26, Go, Spring Batch, AWS, SQS, Kubernetes."
+          ]
+        },
+        {
+          "title": "Senior Engineering Lead — Persistent Systems (Client: Google)",
+          "period": "Jun 2023 – Mar 2024",
+          "subtitle": "Backup & disaster recovery software",
+          "bullets": [
+            "Improved application performance and resolved critical issues.",
+            "Built enhancement features using cloud APIs.",
+            "Stack: Java 17, Shell scripting, Google Cloud APIs."
+          ]
+        },
+        {
+          "title": "Lead Engineer — Yubi (CredAvenue)",
+          "period": "Sep 2022 – Jun 2023",
+          "subtitle": "Interoperability across platform",
+          "bullets": [
+            "Developed high-traffic gRPC microservices; database segregation patterns.",
+            "Managed loan/payment status flows using workflow orchestration.",
+            "Stack: Java 17, Spring Boot, gRPC, Temporal workflows."
+          ]
+        },
+        {
+          "title": "Senior Associate — Publicis Sapient",
+          "period": "Mar 2021 – Aug 2022",
+          "subtitle": "Banking / Data products",
+          "bullets": [
+            "Built tools for login, auditing and operational workflows.",
+            "Led UI modernization to address duplication and performance bottlenecks.",
+            "Stack: Java, Microservices, Kafka, AWS, WebFlux."
+          ]
+        },
+        {
+          "title": "Associate Software Engineer — IHS Markit",
+          "period": "Oct 2018 – Mar 2021",
+          "subtitle": "Post-trade processing platform",
+          "bullets": [
+            "Integrated third-party APIs and improved product lifecycle quality.",
+            "Adopted BDD practices and build tooling improvements.",
+            "Stack: Java, Hibernate, security, CI tooling."
+          ]
+        },
+        {
+          "title": "Software Engineer — Newgen Software",
+          "period": "Aug 2015 – Oct 2018",
+          "subtitle": "BPM/ECM suite",
+          "bullets": [
+            "Improved performance and delivered deployments across environments.",
+            "Designed backend modules and data extraction services.",
+            "Stack: Java, Hibernate, web services, XSLT."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "badges",
+      "title": "Skills",
+      "groups": [
+        {
+          "title": "Backend",
+          "items": [
+            "Java",
+            "Spring Boot",
+            "Microservices",
+            "REST APIs",
+            "gRPC",
+            "System Design"
+          ]
+        },
+        {
+          "title": "Cloud & DevOps",
+          "items": [
+            "AWS",
+            "Kubernetes",
+            "SQS",
+            "CI/CD",
+            "GitHub/GitLab"
+          ]
+        },
+        {
+          "title": "Security / IAM",
+          "items": [
+            "OAuth 2.0",
+            "OIDC",
+            "SSO",
+            "Keycloak",
+            "JWT"
+          ]
+        },
+        {
+          "title": "Data",
+          "items": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Awards & Recognition",
+      "items": [
+        {
+          "title": "Rise and Shine / Customer Champion",
+          "period": "2025",
+          "subtitle": "Altimetrik",
+          "bullets": [
+            "Recognized for delivery impact and collaboration."
+          ]
+        },
+        {
+          "title": "PAT awards / Star award",
+          "period": "2016–2021",
+          "subtitle": "Newgen / IHS Markit",
+          "bullets": [
+            "Multiple internal recognition awards."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "timeline",
+      "title": "Education",
+      "items": [
+        {
+          "title": "Diploma — Programming & Data Science (IIT Madras)",
+          "period": "2021 – 2025",
+          "subtitle": "",
+          "bullets": [
+            "Ongoing / completed coursework in DS & CS."
+          ]
+        },
+        {
+          "title": "MBA — Finance & IT (GGSIPU)",
+          "period": "2018 – 2020",
+          "subtitle": "",
+          "bullets": [
+            "Weekend program."
+          ]
+        },
+        {
+          "title": "B.Tech — Information Technology (GGSIPU)",
+          "period": "2011 – 2015",
+          "subtitle": "",
+          "bullets": [
+            "Undergraduate engineering degree."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Hobbies & Interests",
+      "body": "Marathon running, volunteering, community events, and continuous learning.\n\nI enjoy reading about distributed systems, security, and practical engineering leadership."
+    },
+    {
+      "type": "cards",
+      "title": "Links",
+      "items": [
+        {
+          "title": "LinkedIn",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        },
+        {
+          "title": "GitHub",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        },
+        {
+          "title": "LeetCode",
+          "subtitle": "",
+          "body": "Add your link in the JSON."
+        }
+      ]
+    }
+  ]
+}

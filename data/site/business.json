@@ -1,0 +1,70 @@
+{
+  "navTitle": "persona",
+  "hero": {
+    "title": "Business",
+    "subtitle": "A global business page (not tied to any person).",
+    "meta": "Bootstrap 5.3 · Futuristic + clean",
+    "actions": [
+      {
+        "label": "Contact",
+        "href": "mailto:hello@example.com",
+        "variant": "btn-outline-primary",
+        "icon": "✉️"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "text",
+      "title": "Overview",
+      "body": "A modern, privacy-friendly static site for showcasing services.\n\nThis page is global and intentionally not tied to any individual profile."
+    },
+    {
+      "type": "cards",
+      "title": "Services",
+      "items": [
+        {
+          "title": "Identity & Access Consulting",
+          "subtitle": "SSO, OAuth/OIDC, Keycloak / IAM design",
+          "body": "Design secure login experiences, migrations, and enterprise SSO integrations.\n\nDeliverables: architecture, PoC, rollout and rollback plan."
+        },
+        {
+          "title": "Backend Engineering",
+          "subtitle": "Java / Kotlin, Microservices, AWS",
+          "body": "Build production-ready services with observability, staged rollouts, and least-privilege defaults.\n\nFocus: reliability, low toil and maintainability."
+        },
+        {
+          "title": "Security Reviews",
+          "subtitle": "OWASP, threat modeling, hardening",
+          "body": "Review auth flows, API security, rate limits, brute-force protections and secure headers.\n\nReport includes findings, severity, and remediation steps."
+        },
+        {
+          "title": "Platform Enablement",
+          "subtitle": "Kubernetes, CI/CD, automation",
+          "body": "Improve developer velocity with repeatable deployments and guardrails.\n\nIncludes templates, playbooks, and operational runbooks."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "title": "Products",
+      "items": [
+        {
+          "title": "Persona Templates",
+          "subtitle": "Profile templates for job, marriage, social work, docs",
+          "body": "Reusable static templates with JSON data.\n\nEasy to add new people and profiles."
+        },
+        {
+          "title": "Document Vault (Placeholder)",
+          "subtitle": "Organized downloads with categories",
+          "body": "A clean way to store and share placeholder documents.\n\nFor real documents, use secure hosting."
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "How to work together",
+      "body": "1) Share requirements\n2) Receive a proposal + plan\n3) Deliver in milestones with measurable outcomes"
+    }
+  ]
+}

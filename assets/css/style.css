@@ -1,3 +1,14 @@
+
+ul, ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::marker {
+  content: none;
+}
+
+
 :root {
   --container: 1100px;
   --radius: 14px;
